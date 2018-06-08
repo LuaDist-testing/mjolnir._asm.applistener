@@ -1,7 +1,7 @@
 mjolnir._asm.applistener
 ========================
 
-Listen to notifications sent by other apps, and maybe send some yourself.
+Listen to notifications sent by other apps.
 
 This module is based primarily on code from the previous incarnation of Mjolnir by [Steven Degutis](https://github.com/sdegutis/).
 
@@ -12,8 +12,8 @@ $ luarocks [--tree=mjolnir] install mjolnir._asm.applistener
 
 ### Local Install
 ~~~bash
-$ git clone https://github.com/asmagill/mjolnir_asm.applistener
-$ cd mjolnir_asm.applistener
+$ git clone https://github.com/asmagill/mjolnir_asm.ipc
+$ cd mjolnir_asm.ipc/applistener
 $ [PREFIX=/usr/local] make install
 ~~~
 

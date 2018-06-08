@@ -10,20 +10,20 @@ package = "mjolnir._asm.applistener"
 --    changing the module's source code.
 --
 --    Note: the version must match the version in the filename.
-version = "0.1-1"
+version = "0.2-1"
 
 -- General metadata:
 
-local url = "github.com/asmagill/mjolnir_asm.applistener"
+local url = "github.com/asmagill/mjolnir_asm.ipc"
 local desc = "Listen to notifications sent by other apps, and maybe send some yourself."
 
 -- LuaDist source
 source = {
-  tag = "0.1-1",
+  tag = "0.2-1",
   url = "git://github.com/LuaDist-testing/mjolnir._asm.applistener.git"
 }
 -- Original source
--- source = {url = "git://" .. url}
+-- source = {url = "git://" .. url, dir = "mjolnir_asm.ipc/applistener"}
 -- description = {
 --   summary = desc,
 --   detailed = desc,
